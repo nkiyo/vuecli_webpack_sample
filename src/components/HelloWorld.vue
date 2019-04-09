@@ -91,6 +91,9 @@ export default {
       msg: 'Welcome to Your Vue.js App',
     };
   },
+  methods: {
+    hello: x => x,
+  },
 };
 </script>
 
