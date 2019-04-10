@@ -65,7 +65,17 @@ export default {
     };
   },
   methods: {
-    hello: x => x
+    hello: x => x,
+    hoge: x => {
+      let y = x;
+      if (y === 0) {
+        y += 1;
+      }
+      if (y !== 0) {
+        return y * y;
+      }
+      return y;
+    }
   }
 };
 </script>
